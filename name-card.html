@@ -21,7 +21,7 @@
     }
 
     #img {
-      background: url(./J.png) no-repeat center/contain;
+      background: url("./images/J.png") no-repeat center/contain;
     }
 
     #shadow1 {
@@ -49,16 +49,17 @@
 
     @media(min-width:1400px) {
       #text {
-        padding-left: 150px ;
+        padding-left: 150px;
       }
     }
 
     @media(min-width:1200px) {
       #text {
-        padding-left: 100px ;
+        padding-left: 100px;
       }
+
       #img {
-        background: url(./J.png) no-repeat center/80%;
+        background: url("./images/J.png") no-repeat center/80%;
       }
     }
 
@@ -74,12 +75,14 @@
         width: 75%;
         min-width: 800px;
       }
+
       #text {
         height: 100%;
         word-spacing: 1rem;
         letter-spacing: .25rem;
         white-space: nowrap;
       }
+
       #img {
         height: 100%;
       }
@@ -88,11 +91,12 @@
     @media(max-width:768px) {
       #text {
         align-items: flex-start !important;
-        padding-left: 80px ;
+        padding-left: 80px;
         justify-content: space-between !important;
       }
+
       #img {
-        background: url(./J.png) no-repeat center/auto 80%;
+        background: url("./images/J.png") no-repeat center/auto 80%;
       }
     }
 
@@ -100,6 +104,7 @@
       :root {
         font-size: 13px;
       }
+
       #text {
         padding-left: 50px;
       }
@@ -109,6 +114,7 @@
       :root {
         font-size: 11px;
       }
+
       #text {
         padding-left: 50px;
       }
@@ -119,8 +125,8 @@
 <body class="d-flex justify-content-md-center align-items-md-center position-relative w-100">
 
   <div class="row position-relative p-0 container-md g-0 shadow-lg">
-    <img id="shadow1" src="./未命名-3.png" class="position-absolute d-none d-xl-block">
-    <img id="shadow2" src="./未命名-4.png" class="position-absolute d-none d-xl-block">
+    <img id="shadow1" src="./images/shadow1.png" class="position-absolute d-none d-xl-block">
+    <img id="shadow2" src="./images/shadow2.png" class="position-absolute d-none d-xl-block">
     <div id="img" class="col-12 col-md-4 bg-black d-flex">
     </div>
     <div id="text" style="min-width: 100px"
